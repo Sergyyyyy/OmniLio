@@ -25,12 +25,19 @@ export const socialLinks = [
     featured: false,
   },
   {
+    id: 'linkedin',
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/sergio-bono-peñalosa-955472340?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+    icon: linkedin,
+    featured: true,
+  },
+  {
     id: 'github',
     name: 'GitHub',
-    description: 'View my projects\u2192',
+    description: 'View my projects',
     url: 'https://github.com/Sergyyyyy',
     icon: github,
-    featured: true,
+    featured: false,
   },
   {
     id: 'facebook',
@@ -39,11 +46,5 @@ export const socialLinks = [
     icon: facebook,
     featured: false,
   },
-  {
-    id: 'linkedin',
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/sergio-bono-peñalosa-955472340?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-    icon: linkedin,
-    featured: false,
-  }
+  
 ];

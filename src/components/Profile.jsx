@@ -10,7 +10,7 @@ export default function Profile() {
         <h1 className="profile-name">Gio</h1>
       </div>
       <p className="profile-bio">
-        - Well, my life just got 12% more interesting. -
+        Well, my life just got 12% more interesting.
       </p>
     </div>
   );

@@ -279,7 +279,7 @@ body {
 }
 
 /* Responsive constraints */
-@media (max-width: 380px) {
+@media (max-width: 360px) {
   .social-grid {
     grid-template-columns: 1fr;
   }

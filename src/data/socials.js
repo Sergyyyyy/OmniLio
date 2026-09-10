@@ -27,7 +27,7 @@ export const socialLinks = [
   {
     id: 'github',
     name: 'GitHub',
-    description: 'View my projects \u2192',
+    description: 'View my projects\u2192',
     url: 'https://github.com/Sergyyyyy',
     icon: github,
     featured: true,

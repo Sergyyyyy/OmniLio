@@ -4,6 +4,9 @@ import tiktok from '../assets/tiktok-circle.png';
 import instagram from '../assets/instagramIconNew3.png';
 import linkedin from '../assets/linkedinIcon.png';
 import github from '../assets/githubIcon.png';
+import x from '../assets/twitterIcon5.png';
+import gmail from '../assets/googleLogoIcon4.png';
+import portfolio from '../assets/portfolioIcon4.png'
 
 // Camera, Music2, Globe, Briefcase, Cat
 
@@ -46,5 +49,25 @@ export const socialLinks = [
     icon: facebook,
     featured: false,
   },
-  
+  {
+    id: 'x',
+    name: 'X',
+    url: 'https://x.com/SergioPealosa1',
+    icon: x,
+    featured: false
+  },
+  {
+    id: 'email',
+    name: 'Email',
+    username: 'penalosa.sergiobono@gmail.com',
+    icon: gmail,
+    featured: false,
+  },
+  {
+    id: 'portfolio',
+    name: 'Portfolio',
+    icon: portfolio,
+    url: 'https://www.google.com',
+    featured: true,
+  }
 ];

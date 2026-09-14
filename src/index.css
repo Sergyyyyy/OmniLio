@@ -202,15 +202,15 @@ body {
   width: 34px;
   height: 34px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255); /*0.05*/
+  background: rgba(255, 255, 255, 0.05); /*0.05*/
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all var(--transition-smooth);
 }
 
 .social-card:hover .social-card-icon {
-  /* background: rgba(46, 204, 113, 0.1); */
+  background: rgba(46, 204, 113, 0.1);
   color: var(--accent-color);
-  /* border-color: rgba(46, 204, 113, 0.2); */
+  border-color: rgba(46, 204, 113, 0.2);
 }
 
 .social-card-arrow {

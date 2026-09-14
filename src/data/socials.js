@@ -1,4 +1,4 @@
-import { Camera, Music2, Globe, Briefcase, Cat } from 'lucide-react';
+import { Camera, Music2, Globe, Briefcase, Cat, MessageCircleQuestionIcon, X, Mail, MessageCircleCode } from 'lucide-react';
 import facebook from '../assets/facebookIcon.png';
 import tiktok from '../assets/tiktok-circle.png';
 import instagram from '../assets/instagramIconNew3.png';
@@ -16,7 +16,7 @@ export const socialLinks = [
     name: 'Instagram',
     username: '@seejo_0',
     url: 'https://www.instagram.com/seejo_0?stkn=MXp3NHdid2VwdnRj',
-    icon: instagram,
+    icon: Camera,
     featured: false,
   },
   {
@@ -24,14 +24,14 @@ export const socialLinks = [
     name: 'TikTok',
     username: '@its_yourboy_gio',
     url: 'https://www.tiktok.com/@its_yourboy_gio?is_from_webapp=1&sender_device=pc',
-    icon: tiktok,
+    icon: Music2,
     featured: false,
   },
   {
     id: 'linkedin',
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/sergio-bono-peñalosa-955472340?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-    icon: linkedin,
+    icon: Briefcase,
     featured: true,
   },
   {
@@ -39,34 +39,34 @@ export const socialLinks = [
     name: 'GitHub',
     description: 'View my projects',
     url: 'https://github.com/Sergyyyyy',
-    icon: github,
+    icon: Cat,
     featured: false,
   },
   {
     id: 'facebook',
     name: 'Facebook',
     url: 'https://www.facebook.com/share/1EjeHqUamF/',
-    icon: facebook,
+    icon: MessageCircleQuestionIcon,
     featured: false,
   },
   {
     id: 'x',
     name: 'X',
     url: 'https://x.com/SergioPealosa1',
-    icon: x,
+    icon: X,
     featured: false
   },
   {
     id: 'email',
     name: 'Email',
     username: 'penalosa.sergiobono@gmail.com',
-    icon: gmail,
+    icon: Mail,
     featured: false,
   },
   {
     id: 'portfolio',
     name: 'Portfolio',
-    icon: portfolio,
+    icon: MessageCircleCode,
     url: 'https://www.google.com',
     featured: true,
   }
